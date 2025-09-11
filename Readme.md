@@ -8,8 +8,8 @@ The project is currently under development and aims to include user management, 
 ## 🚀 Tech Stack
 - Spring Boot  
 - Spring Data JPA (Hibernate)  
-- MySQL
-- Spring Security
+- MySQL  
+- Spring Security  
 - Maven  
 
 ---
@@ -27,12 +27,21 @@ The project is currently under development and aims to include user management, 
 - Theater  
 - User  
 
+### ✅ Repositories Implemented
+- BookingRepo  
+- MovieRepository  
+- PaymentRepository  
+- ScreenRepository  
+- ShowRepository  
+- ShowSeatRepository  
+- TheaterRepository  
+- UserRepository  
 
-
+---
 
 ## 📌 Project Status
 - Models ✅ (completed)  
-- JPA Repositories ⏳ (in progress next)  
+- JPA Repositories ✅ (completed)  
 - Services ⏳  
 - Controllers ⏳  
 - Authentication & Authorization ⏳  
