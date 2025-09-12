@@ -27,6 +27,18 @@ The project is currently under development and aims to include user management, 
 - Theater  
 - User  
 
+### ✅ DTOs Implemented
+- BookingDto  
+- BookingRequestDto  
+- MovieDto  
+- PaymentDto  
+- ScreenDto  
+- SeatDto  
+- ShowDto  
+- ShowSeatDto  
+- TheaterDto  
+- UserDto  
+
 ### ✅ Repositories Implemented
 - BookingRepo  
 - MovieRepository  
@@ -41,6 +53,7 @@ The project is currently under development and aims to include user management, 
 
 ## 📌 Project Status
 - Models ✅ (completed)  
+- DTOs ✅ (completed)  
 - JPA Repositories ✅ (completed)  
 - Services ⏳  
 - Controllers ⏳  
@@ -50,5 +63,6 @@ The project is currently under development and aims to include user management, 
 
 ## ⚙️ Setup Instructions
 1. Clone the repository:
-    git clone https://github.com/PranavX500/BookMYShow-Backend-clone.git
+
+git clone https://github.com/PranavX500/BookMYShow-Backend-clone.git
    cd bookmyshow-backend
