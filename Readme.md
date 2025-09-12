@@ -51,5 +51,5 @@ The project is currently under development and aims to include user management, 
 ## ⚙️ Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/bookmyshow-backend.git
+   git clone https://github.com/PranavX500/BookMYShow-Backend-clone.git
    cd bookmyshow-backend
