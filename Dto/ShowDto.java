@@ -13,8 +13,10 @@ import java.util.List;
 public class ShowDto {
     private Long id;
     private LocalDateTime startTime;
+    private LocalDateTime endTime;
     private MovieDto movie;
     private ScreenDto screen;
     private List<ShowSeatDto> availableseats;
+
 
 }

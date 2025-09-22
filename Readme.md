@@ -49,13 +49,13 @@ The project is currently under development and aims to include user management, 
 - TheaterRepository  
 - UserRepository  
 
----
+
 
 ## 📌 Project Status
 - Models ✅ (completed)  
 - DTOs ✅ (completed)  
 - JPA Repositories ✅ (completed)  
-- Services ⏳  
+- Services ⏳
 - Controllers ⏳  
 - Authentication & Authorization ⏳  
 

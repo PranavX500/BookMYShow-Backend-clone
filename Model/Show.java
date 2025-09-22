@@ -16,11 +16,12 @@ import java.util.List;
 @AllArgsConstructor
 public class Show {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(nullable = false)
-    private LocalDate startTime;
+    private LocalDateTime startTime;
     @Column(nullable = false)
     private LocalDateTime endTime;
 
