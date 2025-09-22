@@ -27,6 +27,18 @@ The project is currently under development and aims to include user management, 
 - Theater  
 - User  
 
+### ✅ DTOs Implemented
+- BookingDto  
+- BookingRequestDto  
+- MovieDto  
+- PaymentDto  
+- ScreenDto  
+- SeatDto  
+- ShowDto  
+- ShowSeatDto  
+- TheaterDto  
+- UserDto  
+
 ### ✅ Repositories Implemented
 - BookingRepo  
 - MovieRepository  
@@ -37,12 +49,13 @@ The project is currently under development and aims to include user management, 
 - TheaterRepository  
 - UserRepository  
 
----
+
 
 ## 📌 Project Status
 - Models ✅ (completed)  
+- DTOs ✅ (completed)  
 - JPA Repositories ✅ (completed)  
-- Services ⏳  
+- Services ⏳
 - Controllers ⏳  
 - Authentication & Authorization ⏳  
 

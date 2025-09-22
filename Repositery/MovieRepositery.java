@@ -8,9 +8,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface MovieRepositery extends JpaRepository<Movie,Long> {
-    List<Movie> findByLanguage(String language);
+    Optional<List<Movie>> findByLanguage(String language);
 
-    Optional<Movie> findByBookingNumber(String genre);
-
-    List<Movie>findByTitle(String title);
+    List<Movie> findByGenre(String genre);
+    Optional<Movie>findByTitle(String title);
 }

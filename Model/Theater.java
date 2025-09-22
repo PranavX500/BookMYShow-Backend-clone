@@ -23,6 +23,7 @@ public class Theater {
     private String address;
     @Column(nullable = false)
     private Integer totalScreen;
+    private String city;
 
     @OneToMany(mappedBy = "theater",cascade = CascadeType.ALL)
     private List<Seat> seat;

@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Entity
-@Table(name="theater")
+@Table(name="User")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -25,9 +25,9 @@ public class User {
     @Column(nullable = false)
     private String Password;
     @Column(nullable = false)
-    private String phoneNumber;
+    private String PhoneNumber;
 
-    @OneToMany(mappedBy = "theater",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
     private List< Booking> booking;
 
 
