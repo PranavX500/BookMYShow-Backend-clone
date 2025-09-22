@@ -49,13 +49,20 @@ The project is currently under development and aims to include user management, 
 - TheaterRepository  
 - UserRepository  
 
+### ✅ Exception Handling Implemented
+- ErrorResponse  
+- GlobalExceptionHandler  
+- ResourceNotFoundException  
+- SeatUnavailableException  
 
+---
 
 ## 📌 Project Status
 - Models ✅ (completed)  
 - DTOs ✅ (completed)  
 - JPA Repositories ✅ (completed)  
-- Services ⏳
+- Exception Handling ✅ (completed)  
+- Services ⏳  
 - Controllers ⏳  
 - Authentication & Authorization ⏳  
 
