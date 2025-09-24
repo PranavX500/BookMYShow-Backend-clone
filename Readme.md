@@ -11,7 +11,6 @@ The project is currently under development and aims to include user management, 
 - MySQL  
 - Spring Security  
 - Maven  
-
 ---
 
 ## 📂 Current Modules
