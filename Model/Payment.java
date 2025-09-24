@@ -30,7 +30,7 @@ public class Payment {
     @Column(nullable = false)
     private String status;
 
-    @OneToOne(mappedBy = "Payments")
+    @OneToOne(mappedBy = "payment")
     private Booking booking;
 
 

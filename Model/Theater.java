@@ -36,7 +36,7 @@ public class Theater {
 
 
     @OneToMany(mappedBy = "theater",cascade = CascadeType.ALL)
-    private List< Booking>booking;
+    private List<Booking>booking;
 
 
 

@@ -8,7 +8,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ScreenRepositery extends JpaRepository<Screen,Long> {
-    List<Screen> findByTheater(Long theaterId);
+    List<Screen> findByTheater_Id(Long theaterId);
+
 
 
 

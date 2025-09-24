@@ -56,17 +56,30 @@ The project is currently under development and aims to include user management, 
 - SeatUnavailableException  
 
 ---
+### ✅ Services Implemented
+- BookingService
+- MovieService
+- ShowService
+- TheaterService
+- UserService
 
+---
+### ✅ Controller Implemented
+- MoviesController
+
+---
 ## 📌 Project Status
 - Models ✅ (completed)  
 - DTOs ✅ (completed)  
 - JPA Repositories ✅ (completed)  
 - Exception Handling ✅ (completed)  
-- Services ⏳  
-- Controllers ⏳  
+- Services ✅ (completed)  
+- Controllers ⏳ 
 - Authentication & Authorization ⏳  
 
 ---
+ ## 
+
 
 ## ⚙️ Setup Instructions
 1. Clone the repository:

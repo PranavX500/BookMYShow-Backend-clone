@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import java.awt.print.Book;
 
 @Entity
-@Table(name="Show")
+@Table(name="show_seat")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -17,11 +17,11 @@ public class ShowSeat {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @ManyToOne
-    @JoinColumn(name="Show_id",nullable = false)
+    @JoinColumn(name="shows_id",nullable = false)
     private Show show;
 
     @ManyToOne
-    @JoinColumn(name="Show_id",nullable = false)
+    @JoinColumn(name="Seat_id",nullable = false)
     private Seat seat;
 
     @Column(nullable = false)

@@ -24,10 +24,10 @@ public class Screen {
     @ManyToOne
     @JoinColumn(name="theater_id",nullable = false)
     private Theater theater;
-     @OneToMany(mappedBy = "screens",cascade = CascadeType.ALL)
+     @OneToMany(mappedBy = "screen",cascade = CascadeType.ALL)
     private List<Show> shows;
 
-     @OneToMany(mappedBy = "screens",cascade = CascadeType.ALL)
+     @OneToMany(mappedBy = "screen",cascade = CascadeType.ALL)
      private  List<Seat>seats;
 
 }

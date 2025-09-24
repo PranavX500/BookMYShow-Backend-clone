@@ -18,16 +18,21 @@ public class Movie {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String Title;
+    private String title;
     private String language;
     private String genre;
     private Integer durationMins;
-    private LocalDate ReleaseDate;
+    private LocalDate releaseDate;
     private String posterUrl;
-    private String Description;
+    private String description;
 
     @OneToMany(mappedBy = "movie",cascade=CascadeType.ALL)
     private List<Show> shows;
+    @ManyToOne
+    @JoinColumn(name="theater_id")
+    private Theater theater;
+
+
 
 
 }
