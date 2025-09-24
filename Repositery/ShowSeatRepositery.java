@@ -8,5 +8,7 @@ import java.util.List;
 public interface ShowSeatRepositery extends JpaRepository<ShowSeat,Long> {
     List<ShowSeat> findByShowId(Long movieId);
     List<ShowSeat>findByShowIdAndStatus(Long showId, String status);
+    List<ShowSeat> findBySeatIdIn(List<Long> seatIds);
+
 
 }

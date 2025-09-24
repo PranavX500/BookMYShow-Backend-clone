@@ -27,5 +27,11 @@ public class Seat {
     @JoinColumn(name="screens_id",nullable = false)
     private Screen screen;
 
+    @ManyToOne
+    @JoinColumn(name="theater_id")
+    private Theater theater;
+
+
+
 
 }

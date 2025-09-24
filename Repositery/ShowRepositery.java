@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ShowRepositery extends JpaRepository<Show,Long> {
-    List<Show> findByMovieId(Long movieId);
-    List<Show> findByScreenId(Long screenId);
+    List<Show> findByMovie_Id(Long movieId);
 
-    List<Show>findByStartTimeBetween(LocalDateTime start,LocalDateTime end);
+    List<Show> findByScreen_Id(Long screenId);
 
-    List<Show>findByMovie_IDAndScreen_Theater_City(Long movieId,String city);
+    List<Show> findByStartTimeBetween(LocalDateTime start, LocalDateTime end);
 
+    List<Show> findByMovie_IdAndScreen_Theater_City(Long movieId, String city);
 
 
 

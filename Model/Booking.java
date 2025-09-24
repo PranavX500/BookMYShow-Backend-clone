@@ -26,11 +26,11 @@ public class Booking {
     private LocalDateTime bookingTime;
 
     @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)  // ✅ Foreign key to User table
+    @JoinColumn(name = "User_id", nullable = false)  // ✅ Foreign key to User table
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "show_id", nullable = false)  // ✅ Foreign key to Show table
+    @JoinColumn(name = "shows_id", nullable = false)  // ✅ Foreign key to Show table
     private Show show;
 
     @Column(nullable = false)
@@ -43,8 +43,12 @@ public class Booking {
     private List<ShowSeat> showSeats;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "payment_id")
+    @JoinColumn(name = "Payments_id")
     private Payment payment;
+
+    @ManyToOne
+    @JoinColumn(name="theater_id")
+    private Theater theater;
 
 
 }

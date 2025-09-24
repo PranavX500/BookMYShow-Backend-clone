@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
-@Table(name="Show")
+@Table(name="shows")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -30,13 +30,13 @@ public class Show {
     private  Movie movie;
 
     @ManyToOne
-    @JoinColumn(name="Movies_id",nullable = false)
+    @JoinColumn(name="Screens_id",nullable = false)
     private  Screen screen;
 
-    @OneToMany(mappedBy = "Show",cascade = CascadeType.ALL)
-    private List<Seat> showSeats;
+    @OneToMany(mappedBy = "show",cascade = CascadeType.ALL)
+    private List<ShowSeat> showSeats;
 
-    @OneToMany(mappedBy = "Show",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "show",cascade = CascadeType.ALL)
     private List<Booking> bookings;
 
 
